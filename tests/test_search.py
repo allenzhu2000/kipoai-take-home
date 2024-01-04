@@ -1,8 +1,5 @@
 """
-This file (test_books.py) contains the functional tests for the `books` blueprint.
-
-These tests use GETs and POSTs to different URLs to check for the proper behavior
-of the `books` blueprint.
+Tests for the search blueprint.
 """
 from flask.testing import FlaskClient
 from bs4 import BeautifulSoup
